@@ -1,0 +1,3 @@
+[submodule "python-dev-scripts"]
+	path = python-dev-scripts
+	url = https://github.com/PiJoules/python-dev-scripts
