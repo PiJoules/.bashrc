@@ -6,5 +6,5 @@ alias tmux="TERM=screen-256color-bce tmux"
 # or if the above doesn't work
 #alias tmux="TERM=xterm-256color tmux"
 
-source /home/lc599/python-dev-scripts/_setup_venv_scripts
+source ~/python-dev-scripts/_setup_venv_scripts
 alias increase_that_github_score="git commit -m 'gotta increase that github score'"
