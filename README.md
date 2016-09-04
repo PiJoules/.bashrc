@@ -18,3 +18,8 @@ $ source ~?.bashrc
 # Install the vim plugins
 $ vim
 ```
+
+## Vim
+```sh
+$ sudo apt-get install vim-gnome  # Get vim compiled with xterm_clipboard
+```
