@@ -23,3 +23,9 @@ $ vim
 ```sh
 $ sudo apt-get install vim-gnome  # Get vim compiled with xterm_clipboard
 ```
+
+## Git
+```sh
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
