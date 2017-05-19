@@ -24,3 +24,15 @@ $ sudo apt-get install vim-gnome
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
+
+## Python 
+Example for building python 3.5 from source, but this can be changed to any python version
+```sh
+$ sudo apt-get install -y build-essential
+$ curl -O https://www.python.org/ftp/python/3.5.3/Python-3.5.3.tar.xz
+$ tar xvf Python-3.5.3.tar.xz
+$ cd Python-3.5.3
+$ ./configure
+$ make 
+$ make install  # May need to run with sudo
+```
