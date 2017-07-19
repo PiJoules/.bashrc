@@ -81,8 +81,8 @@ Bundle 'fisadev/vim-isort'
 Bundle 'fisadev/dragvisuals.vim'
 " Window chooser
 Bundle 't9md/vim-choosewin'
-" Python and other languages code checker
-Bundle 'scrooloose/syntastic'
+"" Python and other languages code checker
+Bundle 'vim-syntastic/syntastic'
 " Paint css colors with the real color
 Bundle 'lilydjwg/colorizer'
 " Relative numbering of lines (0 is the current line)
@@ -424,4 +424,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set wrap
-set mouse=a
+set mouse=a 
+
+" c++ settings for syntastic
+let g:syntastic_cpp_compiler = 'g++'
+let g:syntastic_cpp_compiler_options = ' -std=c++11'

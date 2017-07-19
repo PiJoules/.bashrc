@@ -36,3 +36,8 @@ $ ./configure
 $ make 
 $ make install  # May need to run with sudo
 ```
+
+### Virtualenv
+```sh 
+$ sudo apt-get install python-virtualenv
+```
